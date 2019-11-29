@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 
 const About = ({ data: { about } }) => (
   <Layout>
+    <div>I am added in teh template</div>
     <article className="sheet">
       <HelmetDatoCms seo={about.seoMetaTags} />
       <div className="sheet__inner">
